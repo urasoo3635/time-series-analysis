@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 version: '3'
 services:
   python3.10:
@@ -10,3 +11,17 @@ services:
     tty: true
     # volumes:
     #   - ./mount:/work/
+=======
+version: '3'
+services:
+  python3.10:
+    restart: always
+    build:
+      dockerfile: Dockerfile
+    container_name: 'python3.10'
+    working_dir: '/work/'
+    stdin_open: true
+    tty: true
+    # volumes:
+    #   - ./mount:/work/
+>>>>>>> d666dcc53c71152d64a059e36207db2da277cc62

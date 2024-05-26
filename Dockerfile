@@ -20,4 +20,4 @@ RUN apt update && \
 COPY . /work
 
 
-RUN pip3 install pandas numpy pymc seaborn matplotlib poetry statsmodels
+RUN pip3 install pandas numpy pymc seaborn matplotlib poetry statsmodels scikit-learn
